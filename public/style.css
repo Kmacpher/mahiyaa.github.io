@@ -1,0 +1,211 @@
+body {
+  background-color: #24282C;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#nav {
+  background-color: #a01f1f;
+}
+
+.homepage {
+  background-color: #373D41; 
+  height: 100%;
+  width: 100%;
+}
+
+.container-fluid {
+  background-color: #a01f1f; 
+}
+
+.main-text {
+  text-transform: uppercase;
+  padding: 0 17px;
+  font-size: 14px;
+  line-height: 65px;
+}
+
+.spacer {
+  margin-left: 15px;
+}
+
+.grey {
+  color: #999;
+  font-size: 12px;
+}
+
+.nav-link {
+  margin-left: 740px;
+}
+
+.nav-btn {
+  background-color: #8b8d8e;
+  color: white;
+  margin: 10px;
+}
+
+.footer-link {
+  margin-left: 775px;
+}
+
+.footer-btn {
+  color: white;
+  margin: 10px;
+}
+
+.header {
+  color: white;
+}
+
+.motto-div {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.motto {
+  color: white;
+  font-size: 40px;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.guard-img {
+  left: 50%;
+}
+
+#guard {
+  height: 50%;
+  width: 50%;
+  padding: 20px;
+}
+
+.about-section {
+  left:100px;
+}
+.about {
+  width: 29%;
+  margin: 25px;
+  padding: 25px;
+  left: 20px;
+  border: double;
+  border-radius: 35px;
+  background: #8b8d8e;
+}
+
+.about-img {
+  height: 250px;
+  width: 300px;
+  padding: 25px;
+}
+
+.about-subheader {
+  font-weight: bold;
+  color: rgb(50, 50, 50);
+}
+
+.booking {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.header2 {
+  color: white;
+  font-style: oblique;
+}
+
+.apply-now {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+.apply-info {
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
+
+
+.form-style-1 {
+	margin:10px auto;
+	max-width: 400px;
+	padding: 20px 12px 10px 20px;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 li {
+	padding: 0;
+	display: block;
+	list-style: none;
+	margin: 10px 0 0 0;
+}
+.form-style-1 label{
+	margin:0 0 3px 0;
+	padding:0px;
+	display:block;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+	-moz-box-shadow: 0 0 8px #88D5E9;
+	-webkit-box-shadow: 0 0 8px #88D5E9;
+	box-shadow: 0 0 8px #88D5E9;
+	border: 1px solid #88D5E9;
+}
+.form-style-1 .field-divided{
+	width: 49%;
+}
+
+.form-style-1 .field-long{
+	width: 100%;
+}
+.form-style-1 .field-select{
+	width: 100%;
+}
+.form-style-1 .field-textarea{
+	height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+	background: #4B99AD;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+	background: #4691A4;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.form-style-1 .required{
+	color:red;
+}
