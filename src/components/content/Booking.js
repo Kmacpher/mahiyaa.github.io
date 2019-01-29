@@ -6,7 +6,7 @@ class Booking extends Component {
       <div className="Booking">
         <h1 className="booking">Fireguard Schedule Request Form</h1>
         <div>
-          <form>
+          <form action="mailto:mrnysolutions@gmail.com" method="post" enctype="text/plain">
             <ul class="form-style-1">
               <li><label>Full Name <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First" /> <input type="text" name="field2" class="field-divided" placeholder="Last" /></li>
               <li>

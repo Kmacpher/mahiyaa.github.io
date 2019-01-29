@@ -43,6 +43,12 @@ body {
   margin: 10px;
 }
 
+.navbar-brand {
+  font-weight: bolder;
+  font-style: oblique;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .footer-link {
   margin-left: 775px;
 }
@@ -120,7 +126,13 @@ body {
 .apply-info {
   color: white;
   font-weight: bold;
+  text-align: center;
+}
+.apply-info-email {
+  color: white;
+  font-weight: bold;
   text-align: left;
+  font-size: 25px;
 }
 
 
